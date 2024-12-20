@@ -10,8 +10,8 @@
         value: false
       steps:
       - material: Steel
-        amount: 4
-        doAfter: 2
+        amount: 6
+        doAfter: 0
 
   - node: assembly
     entity: AirlockAssembly
@@ -37,7 +37,7 @@
       - !type:DeleteEntity {}
       steps:
       - tool: Welding
-        doAfter: 3
+        doAfter: 1
 
   - node: wired
     entity: AirlockAssembly
